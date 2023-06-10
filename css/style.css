@@ -1,0 +1,132 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container{
+    background-color: #495464;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-container{
+    background-color: #F4F4F2;
+    border-radius: 10px;
+    width: 30%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #495464
+}
+
+.button-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.sns-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3px    
+    ;
+}
+
+.sns-title{
+    color: #495464;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sns-icon{
+    width: 20px;
+
+}
+
+/* form starts here */
+
+.form-container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-title{
+    color: #495464;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.username-container input[type="text"], .password-container input[type="password"]{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 8px;
+    background-color:#E8E8E8;
+    color: #495464;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.forgot{
+    font-size: 10px;
+    margin-left: 5px;
+    color: #495464;
+}
+
+.login-button{
+    width:100%;
+    padding: 10px 0px 10px 5px;
+    border-radius: 8px;
+    margin:20px 0px 5px 0px;
+    border: none;
+    color: #E8E8E8;
+    background-color: #495464;
+}
+
+.login-text{
+        color: #E8E8E8;
+        margin-left: 5px;
+        font-size: 15px;
+        font-weight: bold;
+}
+
+.not-member1, .not-member2{
+        font-size: 10px;
+        margin-left: 5px;
+        color: #495464;
+    }
+.not-member2{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 481px){
+    .login-container{
+        width: 80%;
+    }
+    .sns-button{
+        width: 110px;
+    }
+
+}
